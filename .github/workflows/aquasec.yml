@@ -31,7 +31,10 @@ jobs:
           AQUA_SECRET: ${{ secrets.AQUA_SECRET }}
           TRIVY_RUN_AS_PLUGIN: 'aqua'
           #SAST: 1
-      
+      - name: preparation step
+        run: |
+          mkdir config
+          mv test.json config/config.json
       - name: Login to DockerHub
         uses: docker/login-action@v2
         with:
