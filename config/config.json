@@ -1,0 +1,11 @@
+{
+    "user": "root",
+    "password": "root",
+    "dbname": "govwa",
+    "sqlhost": "localhost",
+    "sqlport": "3306",
+    "webserver": "http://localhost",
+    "webport": "8888",
+
+    "sessionkey:": "G0Vw444"
+}
